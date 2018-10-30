@@ -11,20 +11,20 @@ Wire the inpouts for the 4 * 4 keypad to the PINs defined in the _ROW_PINS_ and 
 ssh to the pi
 Try following commands
   
-  ''' 
+  ``` 
   bluetoothctl -a
   scan on 
-  '''
+  ```
 
 Find the MAC address of the speaker
   
-  '''
+  ```
   scan off
   pair <MAC Address>
   trust <MAC Address>
   connect <MAC Address>
   quit
-  '''
+  ```
   
 Speaker should now be paired
   
